@@ -1,0 +1,117 @@
+.data-score-display {
+    position: relative;
+    padding: 2%;
+    padding-left: 10%;
+    font-size: 150%;
+}
+
+.user-id {
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.data-score {
+    font-size: 180%;
+    font-weight: 700;
+}
+
+.timer-score-display {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.timer-display {
+    font-size: 150%;
+    font-weight: 1000;
+
+}
+
+.timer {
+    font-size: 175%;
+}
+
+.score-display {
+    font-size: 150%;
+    font-weight: 1000;
+}
+
+.score {
+    font-size: 175%;
+}
+
+.game-display {
+    width: 85%;
+    background-color: rgb(75, 75, 75);
+    margin: 0 auto;
+    padding: 5%;
+    border-radius: 20px;
+    border: solid 4px white;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.string-display span{
+    margin: 0.8px;
+    font-size: 200%;
+    user-select: none;
+}
+
+.input-display {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.input-display input{
+    text-align: center;
+    font-size: 200%;
+}
+
+.other-display > form, .other-display > div{
+    padding-top: 2%;
+}
+
+.other-display > div > button {
+    font-size: 1.3rem;
+}
+
+.start-display {
+    font-size: 150%;
+}
+
+.end-score-submit {
+    user-select: none;
+}
+
+.correct {
+    color: greenyellow;
+}
+
+.incorrect {
+    color: rgb(255, 81, 0);
+}
+
+.time-up {
+    font-size: 300%;
+    color: rgb(255, 81, 0);
+    margin: 0;
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 75%;
+    }
+
+    .game-display {
+        width: 100%;
+    }
+
+    .string-display span{
+        margin: 0.8px;
+        font-size: 160%;
+        user-select: none;
+    }
+}

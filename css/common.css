@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+    background-color: #ABB18A;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 955px;
+    min-height: 100%;
+    height: auto;
+    margin: 0px auto;
+    border-style: outset;
+    border-width: 2px 5px 0px;
+    padding: 40px 0px;
+    background-color: #D9DCCA;
+}
+
+.form-signin , .list-display {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+table td {
+    word-break : break-all;
+}
+
+.welcome-btn {
+    width: 230px;
+    height: 120px;
+    font-size: 140%;
+}
+
+.welcome-other-btn {
+    height: 50px;
+}
+
+@media screen and (max-width: 959px) {
+    body {
+        width: 100%;
+        margin: 0 0;
+    }
+}

@@ -1,0 +1,42 @@
+table {
+    border-collapse:  collapse; /* セルの線を重ねる */
+    width: 100%
+}
+ 
+tr:nth-child(odd) {
+    background-color:  #ddd;    /* 背景色指定 */
+}
+
+tr:nth-child(even){
+    background-color: rgb(240, 240, 240);
+}
+
+.scope th {
+    background-color: rgb(240, 240, 240);
+}
+
+th,td {
+    padding: 5px 10px;          /* 余白指定 */
+    font-size: 15px;
+}
+
+
+.input-title-todo {
+    width: 25%;
+}
+
+.input-content-todo {
+    width: 50%;
+}
+
+.input-submit-todo {
+    width: 15%;
+}
+
+.form-todo input{
+    margin: 5px;
+}
+
+.delete {
+    text-align:  center;
+}
